@@ -1,0 +1,25 @@
+GET http://localhost:3000/users
+
+###
+GET http://localhost:3000/users/6514b173c19b7df686ba51d0
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "userName": "Juana",
+    "password": "983kui"
+}
+
+###
+PATCH  http://localhost:3000/users/6514b173c19b7df686ba51d0
+Content-Type: application/json
+
+{
+    "userName": "Cata"
+}
+
+###
+DELETE http://localhost:3000/users/6514b4a7e2ade193128c6ece
+
+
